@@ -1,12 +1,7 @@
-import './App.css'
+import { StorageDemo } from './components/StorageDemo';
 
 function App() {
-
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+  return <StorageDemo />;
 }
 
-export default App
+export default App;
